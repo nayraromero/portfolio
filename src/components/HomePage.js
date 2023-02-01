@@ -17,7 +17,7 @@ const HomePage = () => {
         <h1 className="introduction__title">
           ¡Hola! Mi nombre es Nayra Romero y soy front-end developer.
         </h1>
-        <a href="#section2" className="introduction__button">
+        <div className="introduction__button">
           <img
             src={Arrow}
             alt="arrow up"
@@ -29,9 +29,9 @@ const HomePage = () => {
             alt="arrow up"
             className="introduction__button--arrow"
           />
-        </a>
+        </div>
       </section>
-      <section className="personal section-2" id="section2">
+      <section className="personal">
         <div className="personal__info">
           <h2 className="personal__info--title">Sobre mí</h2>
           <p className="personal__info--text">

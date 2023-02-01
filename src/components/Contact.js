@@ -36,7 +36,11 @@ const Contact = () => {
             <p className="contact__list--name">GitHub</p>
           </a>
         </div>
-        <div className="contact__cv"></div>
+        <div className="contact__cv">
+          <a href="./CV-NayraRomero.pdf" download className="contact__cv--link">
+            Descarga mi cv
+          </a>
+        </div>
       </section>
     </>
   );
