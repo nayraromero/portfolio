@@ -1,0 +1,41 @@
+@import '../core/variables.scss';
+
+.header {
+  background-color: $my-green;
+  position: fixed;
+  width: 100%;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  @media all and (min-width: 768px) {
+    padding: 0 20px 0 20px;
+  }
+  @media all and (min-width: 1024px) {
+    padding: 0 40px 0 40px;
+  }
+}
+.header-link {
+  display: table;
+  color: $desert-storm;
+  text-decoration: none;
+  font-family: $main-font;
+  text-transform: uppercase;
+  padding: 30px;
+  @media all and (min-width: 1024px) {
+    font-size: 18px;
+  }
+}
+.header-link::after {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: $desert-storm;
+  transform: scale(0, 1);
+  transform-origin: center;
+  transition: transform 0.25s;
+}
+
+.header-link:hover::after {
+  transform: scale(1, 1);
+}

@@ -1,0 +1,177 @@
+@import '../core/variables.scss';
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $desert-storm;
+  gap: 40px;
+  height: 100vh;
+
+  &__title {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 40px;
+    color: $dark-brown;
+    width: 50%;
+    text-align: center;
+    margin-top: 40px;
+  }
+  &__button {
+    border: 1px solid $dark-brown;
+    padding: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: all 1s ease;
+    text-decoration: none;
+    color: $dark-brown;
+    text-transform: uppercase;
+    font-family: $main-font;
+    font-size: 20px;
+    letter-spacing: 1px;
+    &--arrow {
+      height: 20px;
+      width: 20px;
+    }
+  }
+  &__button:hover {
+    background: $dark-brown;
+    color: $desert-storm;
+  }
+}
+.personal {
+  font-family: $main-font;
+  background-color: $dark-beige;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  // height: 100vh;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    height: 80vh;
+  }
+  @media all and (min-width: 1024px) {
+    padding: 60px 100px 60px 100px;
+  }
+  &__info {
+    background-color: $desert-storm;
+    padding: 30px;
+    border-radius: 20px;
+    @media all and (min-width: 768px) {
+      padding: 60px 30px 60px 30px;
+    }
+    @media all and (min-width: 1024px) {
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &--title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      text-align: center;
+      @media all and (min-width: 1024px) {
+        margin-bottom: 30px;
+        font-size: 26px;
+      }
+    }
+    &--text {
+      text-align: justify;
+      font-size: 18px;
+      @media all and (min-width: 1024px) {
+        font-size: 20px;
+      }
+    }
+  }
+  &__photo {
+    height: 279px;
+    border-radius: 15px;
+    @media all and (min-width: 1024px) {
+      border-radius: 50%;
+    }
+  }
+}
+.skills {
+  background-color: $desert-storm;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $main-font;
+  padding: 40px;
+  gap: 40px;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    height: 80vh;
+  }
+  @media all and (min-width: 1024px) {
+    padding: 60px 100px 60px 100px;
+  }
+  .techSkills {
+    padding: 20px;
+    border: 3px solid $my-green;
+    border-radius: 20px;
+    &__title {
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: capitalize;
+      padding-bottom: 20px;
+      text-align: center;
+      @media all and (min-width: 1024px) {
+        font-size: 26px;
+        margin-bottom: 10px;
+      }
+    }
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      &--icon {
+        width: 40px;
+        height: 40px;
+        border: 3px solid $my-green;
+        border-radius: 30px;
+        padding: 15px;
+        @media all and (min-width: 1024px) {
+          width: 45px;
+          height: 45px;
+        }
+      }
+    }
+  }
+  .softSkills {
+    padding: 20px;
+    border: 3px solid $my-green;
+    border-radius: 20px;
+    &__title {
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: capitalize;
+      padding-bottom: 20px;
+      text-align: center;
+      @media all and (min-width: 1024px) {
+        font-size: 26px;
+        margin-bottom: 10px;
+      }
+    }
+    &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      @media all and (min-width: 1024px) {
+        font-size: 20px;
+      }
+    }
+  }
+}
