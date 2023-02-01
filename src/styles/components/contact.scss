@@ -35,6 +35,14 @@
       padding: 12px;
       border-radius: 25px;
       background-color: rgba($color: $dark-beige, $alpha: 0.6);
+      transition: 0.5s ease;
+      -moz-transition: 0.5s ease;
+      -webkit-transition: 0.5s ease; /* Chrome - Safari */
+    }
+    &--icon:hover {
+      transform: scale(1.2);
+      -moz-transform: scale(1.2); /* Firefox */
+      -webkit-transform: scale(1.2); /* Chrome - Safari */
     }
     &--name {
       text-align: center;
