@@ -1,0 +1,16 @@
+@import '../core/variables.scss';
+
+.projects {
+  font-family: $main-font;
+  background-color: $desert-storm;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    font-size: 40px;
+    font-weight: 700;
+    color: $dark-brown;
+  }
+}

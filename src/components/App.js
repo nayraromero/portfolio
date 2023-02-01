@@ -10,6 +10,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import HomePage from './HomePage';
 import Contact from './Contact';
+import Projects from './Projects';
 
 function App() {
   //RETURN HTML
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </>
   );
