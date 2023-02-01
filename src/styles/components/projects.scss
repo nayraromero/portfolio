@@ -13,4 +13,18 @@
     font-weight: 700;
     color: $dark-brown;
   }
+  .container {
+    padding: 15px;
+    border: 1px solid $dark-brown;
+    border-radius: 25px;
+    &__image {
+      //   width: 200px;
+      //   height: 100px;
+      padding: 5px;
+      &--photo {
+        width: 200px;
+        border-radius: 10px;
+      }
+    }
+  }
 }
