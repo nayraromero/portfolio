@@ -38,6 +38,14 @@
         color: grey;
         text-align: justify;
       }
+      &--tech {
+        font-size: 11px;
+        color: grey;
+        border-radius: 20px;
+        padding: 2px;
+        width: fit-content;
+        text-decoration: underline;
+      }
     }
     &__buttons {
       padding: 15px;
