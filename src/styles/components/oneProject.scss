@@ -41,42 +41,43 @@
       height: 190px;
     }
     @media all and (min-width: 1024px) {
-      height: 200px;
-      padding: 20px 20px 10px 20px;
+      height: 180px;
+      padding: 10px 20px 10px 20px;
     }
 
     &--title {
       font-size: 20px;
-      font-weight: 600;
+      font-weight: 700;
       letter-spacing: 0px;
       text-align: left;
       @media all and (min-width: 768px) {
         font-size: 22px;
       }
       @media all and (min-width: 1024px) {
-        font-size: 28px;
+        font-size: 26px;
       }
     }
     &--text {
       font-size: 14px;
-      color: grey;
+      color: #272727;
       text-align: justify;
       @media all and (min-width: 768px) {
         font-size: 18px;
       }
       @media all and (min-width: 1024px) {
-        font-size: 24px;
+        font-size: 20px;
       }
     }
     &--tech {
       font-size: 11px;
-      color: grey;
+      color: $dark-brown;
       border-radius: 20px;
       padding: 2px;
       width: fit-content;
       text-decoration: underline;
+      font-style: italic;
       @media all and (min-width: 768px) {
-        font-size: 14px;
+        font-size: 16px;
       }
       @media all and (min-width: 1024px) {
         font-size: 18px;
@@ -87,6 +88,12 @@
     padding: 15px;
     display: flex;
     justify-content: space-around;
+    @media all and (min-width: 768px) {
+      padding: 0 0 10px 0;
+    }
+    @media all and (min-width: 1024px) {
+      padding: 0 0 10px 0;
+    }
     &--link {
       text-decoration: none;
       background-color: $my-green;
@@ -106,7 +113,7 @@
       }
       @media all and (min-width: 1024px) {
         font-size: 18px;
-        padding: 12px 35px 12px 35px;
+        // padding: 12px 35px 12px 35px;
       }
     }
     &--link:hover {

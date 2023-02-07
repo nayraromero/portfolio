@@ -6,6 +6,8 @@ import Debuggers from '../images/debuggers.png';
 import Balloon from '../images/balloon.png';
 import RGB from '../images/colorGenerator.png';
 import BreakingBad from '../images/breakingBad.png';
+import Women from '../images/women.png';
+import Anonymus from '../images/anonymus.png';
 
 const Projects = () => {
   return (
@@ -60,13 +62,33 @@ const Projects = () => {
           {/* Breaking Bad Favorites*/}
           <OneProject
             img={BreakingBad}
-            name={'Breaking Bad Favorites'}
+            name={'Breaking Bad Finder'}
             text={
               'Buscador de personajes de la serie Braking Bad. Podemos buscarlos por nombre y guardar en favoritos aquellos que más nos gusten.'
             }
             tech={'HTML, CSS, JavaScript, Apis, Git'}
             demo={'https://nayraromero.github.io/Breaking-Bad-Favorites/'}
             repo={'https://github.com/nayraromero/Breaking-Bad-Favorites'}
+          />
+          <OneProject
+            img={Women}
+            name={'Women in Tech'}
+            text={
+              'Página web totalmente responsive y Mobile First de uno de mis equipos. El usuario puede contactarnos y saber más acerca de nosotras. '
+            }
+            tech={'HTML, CSS, SASS, Git'}
+            demo={'https://nayraromero.github.io/Women-in-Tech/'}
+            repo={'https://github.com/nayraromero/Women-in-Tech'}
+          />
+          <OneProject
+            img={Anonymus}
+            name={'Anonymus Proxy'}
+            text={
+              'Página web creada en base a un diseño de Zeplin. Es totalmente responsive y basada en la metodología Mobile First '
+            }
+            tech={'HTML, CSS, Git'}
+            demo={'https://nayraromero.github.io/Anonymus-proxy/'}
+            repo={'https://github.com/nayraromero/Anonymus-proxy'}
           />
         </div>
       </section>
