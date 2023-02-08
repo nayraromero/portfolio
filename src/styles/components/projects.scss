@@ -3,20 +3,7 @@
 .projects {
   font-family: $main-font;
   background-color: $desert-storm;
-  // text-align: center;
   padding: 150px 0;
-  // &__title {
-  //   font-size: 40px;
-  //   font-weight: 700;
-  //   color: $dark-brown;
-  //   margin-bottom: 40px;
-  //   text-transform: uppercase;
-  //   text-decoration: underline;
-  //   @media all and (min-width: 1024px) {
-  //     margin-bottom: 80px;
-  //     font-size: 45px;
-  //   }
-  // }
   &__list {
     display: flex;
     gap: 40px;

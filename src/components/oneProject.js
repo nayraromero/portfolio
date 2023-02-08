@@ -4,7 +4,7 @@ import 'animate.css';
 const oneProject = (props) => {
   return (
     <>
-      <div className="container animate__animated animate__fadeInDown animate__delay-750ms animate__slower">
+      <div className="container animate__animated animate__zoomIn animate__delay-750ms animate__slower">
         <img
           src={props.img}
           alt="rick and morty"
