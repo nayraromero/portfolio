@@ -4,6 +4,7 @@
   background-color: $my-green;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 .header-nav {
   display: flex;
