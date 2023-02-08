@@ -11,6 +11,7 @@ import Header from './Header';
 import HomePage from './HomePage';
 import Contact from './Contact';
 import Projects from './Projects';
+import Footer from './Footer';
 
 function App() {
   //RETURN HTML
@@ -22,6 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
+      <Footer />
     </>
   );
 }

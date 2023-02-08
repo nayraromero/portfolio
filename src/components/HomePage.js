@@ -9,6 +9,7 @@ import nodejsIcon from '../images/nodejs.ico';
 import gitIcon from '../images/git.ico';
 import githubIcon from '../images/github.ico';
 import sqlIcon from '../images/sql.ico';
+import { Link } from 'react-scroll';
 
 const HomePage = () => {
   return (
@@ -17,7 +18,8 @@ const HomePage = () => {
         <h1 className="introduction__title">
           ¡Hola! Mi nombre es Nayra Romero y soy front-end developer.
         </h1>
-        <div className="introduction__button">
+        <Link smooth={true} to="personal" className="introduction__button">
+          {/* <div className="introduction__button"> */}
           <img
             src={Arrow}
             alt="arrow up"
@@ -29,7 +31,8 @@ const HomePage = () => {
             alt="arrow up"
             className="introduction__button--arrow"
           />
-        </div>
+        </Link>
+        {/* </div> */}
       </section>
       <section className="personal">
         <div className="personal__info">

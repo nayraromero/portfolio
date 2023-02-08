@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     <>
       <section className="projects">
-        <h2 className="projects__title">Proyectos</h2>
+        {/* <h2 className="projects__title">Proyectos</h2> */}
         <div className="projects__list">
           {/* RICK AND MORTY FINDER */}
           <OneProject

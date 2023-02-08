@@ -1,0 +1,15 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  &__arrow {
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    &--image {
+      transform: rotate(180deg);
+    }
+  }
+}
