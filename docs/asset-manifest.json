@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "./static/css/main.8a56a4b6.css",
-    "main.js": "./static/js/main.94c87bf5.js",
+    "main.js": "./static/js/main.7443dd6b.js",
     "static/media/imagenCV.jpg": "./static/media/imagenCV.42171182f689ea89bbf4.jpg",
     "static/media/anonymus.png": "./static/media/anonymus.29c58a2353f3dbe2f688.png",
+    "static/media/breakingBad.png": "./static/media/breakingBad.b4ef021e82200afa7042.png",
     "static/media/rick.png": "./static/media/rick.79256ca5c6a284c37a00.png",
     "static/media/women.png": "./static/media/women.0d354b9abd1b473e1ac8.png",
     "static/media/balloon.png": "./static/media/balloon.92abc1df167ba3f37bdf.png",
-    "static/media/breakingBad.png": "./static/media/breakingBad.a99d8cfa067d2516bf2b.png",
     "static/media/colorGenerator.png": "./static/media/colorGenerator.44bcbdd051940fb7b467.png",
     "static/media/debuggers.png": "./static/media/debuggers.3003cdbe3a67141a8b12.png",
     "static/media/css.ico": "./static/media/css.d1546ea50a6464e98aa1.ico",
@@ -22,10 +22,10 @@
     "static/media/nodejs.ico": "./static/media/nodejs.8342bdb6fa45eff0ddb5.ico",
     "index.html": "./index.html",
     "main.8a56a4b6.css.map": "./static/css/main.8a56a4b6.css.map",
-    "main.94c87bf5.js.map": "./static/js/main.94c87bf5.js.map"
+    "main.7443dd6b.js.map": "./static/js/main.7443dd6b.js.map"
   },
   "entrypoints": [
     "static/css/main.8a56a4b6.css",
-    "static/js/main.94c87bf5.js"
+    "static/js/main.7443dd6b.js"
   ]
 }
